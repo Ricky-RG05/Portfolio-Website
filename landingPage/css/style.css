@@ -1,0 +1,202 @@
+/* Index css 
+1.-
+2.-
+3.-
+4.-
+5.-
+6.-
+7.-
+8.-
+9.-
+10.-
+*/
+
+
+.inter-normal {
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+
+.jost-normal {
+    font-family: "Jost", serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+  }
+
+
+.geologica-normal {
+    font-family: "Geologica", serif;
+    font-optical-sizing: auto;
+    font-weight: extra-bold;
+    font-style: normal;
+    letter-spacing: -1;
+    font-variation-settings:
+      "slnt" 0,
+      "CRSV" 0,
+      "SHRP" 0;
+  }
+
+html {
+    font-size: 16px;
+    background-color: #F7F7F7;
+}
+
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 35px;
+    height: 25px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-right: 81px;
+}
+
+.line {
+width: 100%;
+height: 4.3px;
+background-color: #000;
+border-radius: 2px;
+transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+
+
+/* Active State (Optional, for animations) */
+.hamburger.active .line:nth-child(1) {
+transform: translateY(8px) rotate(45deg);
+}
+
+.hamburger.active .line:nth-child(2) {
+opacity: 0;
+}
+
+.hamburger.active .line:nth-child(3) {
+transform: translateY(-8px) rotate(-45deg);
+}
+
+.nav-bar {
+    display: flex;
+    
+    align-items: center;
+    gap: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.nav-bar ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Jost", serif;
+    font-size: 22px;
+    width: 400px;
+    padding: 0;
+    font-weight: 500;
+}
+
+.hero-content {
+    display: inline-block;
+    gap: 49px;
+    display: inline-block;
+    justify-content: center;
+    align-items: flex-start;
+    max-width: 550px;
+    margin-top: 133px;    
+    margin-left: 107px;
+}
+
+.hero-content h1 {
+    font-family: "Geologica", serif;
+    font-size: 90px;
+    font-weight: 900;
+    line-height: 1.4;
+    margin-bottom: 45px;
+}
+
+.hero-content h3 {
+    font-family: "Inter", serif;
+    font-size: 27px;
+    font-weight: bold;
+    line-height: 1.3;
+}
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 17px;
+}
+
+.image-layout {
+    display: inline-block;
+    position: absolute;
+    top: 230px;
+    margin-left: 214px;
+}
+
+.project-img1 {
+    position: absolute;
+    background-image: url(../images/code-image.png);
+    width: 265px;
+    height: 268px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    right: 217px;
+    bottom: 299px;
+}
+
+.ricardo-img2 {
+    background-image: url(../images/ricardo.jpg);
+    width: 318px;
+    height: 430px;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.blue-box {
+    width: 247px;
+    height: 252px;
+    background-color: #283974;
+    position: absolute;
+    top: 353px;
+    margin-left: 256px;
+    opacity: 0.95;
+}
+
+.click-square {
+    display: flex;
+    justify-content: center;
+    background-color: #587428;
+    width: 409px;
+    height: 409px;
+    margin-top: 84px;
+    margin-left: 336px;
+    margin-bottom: 60px;
+}
+
+.square-content {
+    margin-top: 92px;
+    width: 267px;
+    height: 144px;
+    line-height: 1.3;
+}
+
+.click-square h2 {
+    font-family: "Inter", serif;
+    font-size: 40px;
+    font-weight: 500;
+    color: white;
+}
+
+.click-square h2 span {
+    text-decoration: underline;
+}
