@@ -62,18 +62,18 @@ html {
     transform-origin: left 0.175rem; 
 }
 
-.hamburger.active .line:nth-child(1) {
-    transform: rotate(48.35deg) translate(0rem, -0.0625rem); 
-}
 
-.hamburger.active .line:nth-child(2) {
+.hamburger.active .line:nth-child(1) {
     opacity: 0;
-    transform: translateX(-3.125rem); 
+    transform: translateY(3.125rem); 
 }
 
 .hamburger.active .line:nth-child(3) {
-    transform: rotate(-48deg) translate(0rem, 0.0625rem); 
+    opacity: 0;
+    transform: translateY(-3.125rem); 
 }
+
+
 
 .nav-bar {
     display: flex;
@@ -138,6 +138,8 @@ html {
     position: absolute;
     top: 12.5rem; 
     margin-left: 15rem; 
+    height: 700x;
+    Width: 300px;
 }
 
 .project-img1 {
@@ -258,23 +260,13 @@ html {
      .line {
         height: 4px; 
      }
- 
-     .hamburger.active .line:nth-child(1) {
-        transform: rotate(50.35deg) translate(0rem, -0.0625rem); 
-     }
- 
-     .hamburger.active .line:nth-child(2) {
-        opacity: 0;
-        transform: translateX(-3.125rem); 
-     }
-     
-     .hamburger.active .line:nth-child(3) {
-        transform: rotate(-48deg) translate(0rem, 0.0625rem); 
-     }
-
     .nav-bar ul {
         font-size: 20px;
         width: 80%;
+    }
+
+    .project-img1 {
+        right: 25rem;
     }
  }
 
@@ -307,6 +299,10 @@ html {
     .click-square {
         margin-left: 25%;
         margin-top: 560px;
+    }
+
+    .project-img1 {
+        right: 30rem; 
     }
 }
 
