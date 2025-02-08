@@ -428,14 +428,40 @@ html {
     text-decoration: underline;
 }
 /* 7. Media Queries for Different Screen Sizes */
-@media only screen and (min-width: 390px) and (max-width: 628px) {
-   html {
-    font-size: 10px;
-   }
-    
-}
-@media only screen and (min-width: 300px) and (max-width: 449px) {
-    
+@media only screen and (max-width: 628px) {
+    html {
+     font-size: 10px;
+    }
+     
+     .hamburger {
+         width: 40px; /* 35px */
+         height: 28px; /* 1em equals the parent's font size */
+     }
+ 
+     .line {
+         height: 4px; /* 4.3px */
+     }
+ 
+     .hamburger.active .line:nth-child(1) {
+     transform: rotate(50.35deg) translate(0rem, -0.0625rem); /* 0px, -1px */
+     }
+ 
+     .hamburger.active .line:nth-child(2) {
+         opacity: 0;
+         transform: translateX(-3.125rem); /* -50px */
+     }
+     
+     .hamburger.active .line:nth-child(3) {
+         transform: rotate(-48deg) translate(0rem, 0.0625rem); /* 0px, 1px */
+     }
+
+    .nav-bar ul {
+        font-size: 20px;
+        width: 80%;
+    }
+ }
+
+ @media only screen and (max-width: 449px) {    
     html {
      font-size: 8px;
     }
@@ -443,7 +469,7 @@ html {
 
      .image-layout {
          margin-left: -200px;
-         margin-top: 290px;
+         margin-top: 310px;
      } 
  
      .click-square {
@@ -451,4 +477,21 @@ html {
          margin-top: 400px;
          
      }
- }
+    
+    .blue-box {
+       width: 130px; /* 247px */
+       height: 140px; /* 252px */
+       width-rigth: 100px;
+    }
+
+    .hero-content {
+       margin-left: 17%; /* 107px */
+       margin-top: 49px
+    }
+
+    .click-square {
+        margin-left: 25%;
+        margin-top: 560px;
+    }
+}
+
