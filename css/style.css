@@ -144,7 +144,7 @@ html {
 
 .project-img1 {
     position: absolute;
-    background-image: url(images/code-image.webp);
+    background-image: url(../images/code-image.webp);
     width: 16.5625rem; 
     height: 16.75rem; 
     background-size: contain;
@@ -155,7 +155,7 @@ html {
 }
 
 .ricardo-img2 {
-    background-image: url(images/ricardo.webp);
+    background-image: url(../images/ricardo.webp);
     width: 19.875rem; 
     height: 26.875rem; 
     background-size: contain;
@@ -217,7 +217,7 @@ html {
 
 .project-img1 {
     position: absolute;
-    background-image: url(../images/code-image.png);
+    background-image: url(../images/code-image.webp);
     width: 16.5625rem; 
     height: 16.75rem; 
     background-size: contain;
@@ -228,7 +228,7 @@ html {
 }
 
 .ricardo-img2 {
-    background-image: url(../images/ricardo.jpg);
+    background-image: url(../images/ricardo.webp);
     width: 19.875rem; 
     height: 26.875rem; 
     background-size: contain;
