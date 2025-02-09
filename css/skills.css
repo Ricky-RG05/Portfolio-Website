@@ -144,6 +144,10 @@ h2.subtitle {
     margin-bottom: 12px;
 }
 
+.skills-container {
+    width: 500px;
+}
+
 .skills-list li {
     font-family: "Inter", serif;
     font-size: 24px;
@@ -193,39 +197,6 @@ h2.subtitle {
     margin-top: 250px;
     margin-right: 20px;
 }
-@media only screen and (max-width: 1146px) {
-    .paint-brushes-image{
-        margin-top: 400px;
-    }
-    
-}
-
-@media only screen and (max-width: 1063px) {
-    .paint-brushes-image{
-        margin-top: 500px;
-    }
-    
-}
-
-@media only screen and (max-width: 996px) {
-    .paint-brushes-image{
-        margin-top: 700px;
-    }
-    
-}
-
-@media only screen and (max-width: 866px) {
-    .paint-brushes-image{
-        margin-top: 900px;
-    }
-    
-}
-
-@media only screen and (max-width: 800px) {
-    .skills-flex-container{
-        margin-left: 50px;
-    }
-}
 
 @media only screen and (max-width: 568px) {
     .hamburger {
@@ -245,6 +216,7 @@ h2.subtitle {
         margin-left: 100px;
         
     }
-    
+    .skills-flex-container {
+        margin-left: 45px;
+    }
 }
-
