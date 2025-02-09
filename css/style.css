@@ -99,6 +99,19 @@ html {
     font-weight: 500;
 }
 
+.nav-bar a {
+    color: inherit; /* Inherits the color from the parent element */
+    text-decoration: none; /* Removes underline */
+    transition: color 0.3s ease-in-out; /* Smooth transition for color change */
+    display: inline-block; /* Allows transformation */
+}
+
+.nav-bar a:hover {
+    color: #287472; /* Changes text color on hover to a dark shade */
+    
+}
+
+
 /* 4. Hero Section */
 .hero-content {
     display: inline-block;
