@@ -121,13 +121,13 @@ body {
 }
 
 .skills-flex-container {
-    max-width: 600px;
+    max-width: 1700px; 
     display: inline-flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
-    margin-left: 95px;
+    flex-direction: row;
+    align-items: flex-start; 
     margin-top: 32px;
+    margin-left: 95px;
+    gap: 80px; 
 }
 
 h1 {
@@ -164,11 +164,14 @@ h2.subtitle {
 }
 
 .flags-container {
+    margin-top: 112px;
     display: inline-flex;
     flex-direction: column;
     background-size: cover;
     background-position: center;
-    order: 2;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    align-items: center;
 }
 
 .flags-image {
@@ -178,3 +181,70 @@ h2.subtitle {
     background-size: cover;
     background-position: center;
 }
+
+
+
+.paint-brushes-image {
+    width: 429px;
+    height: 272px;
+    background-image: url(../images/paintBrushesImage.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-top: 250px;
+    margin-right: 20px;
+}
+@media only screen and (max-width: 1146px) {
+    .paint-brushes-image{
+        margin-top: 400px;
+    }
+    
+}
+
+@media only screen and (max-width: 1063px) {
+    .paint-brushes-image{
+        margin-top: 500px;
+    }
+    
+}
+
+@media only screen and (max-width: 996px) {
+    .paint-brushes-image{
+        margin-top: 700px;
+    }
+    
+}
+
+@media only screen and (max-width: 866px) {
+    .paint-brushes-image{
+        margin-top: 900px;
+    }
+    
+}
+
+@media only screen and (max-width: 800px) {
+    .skills-flex-container{
+        margin-left: 50px;
+    }
+}
+
+@media only screen and (max-width: 568px) {
+    .hamburger {
+        margin-right: 20px;
+    }
+    .nav-bar {
+        gap: 2px;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .hamburger {
+        position: absolute;
+        
+    }
+    .nav-bar {
+        margin-left: 100px;
+        
+    }
+    
+}
+
