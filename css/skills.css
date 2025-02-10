@@ -174,7 +174,8 @@ h2.subtitle {
     background-size: cover;
     background-position: center;
     flex-wrap: wrap;
-    margin-left: 20px;
+    margin-left: 110px;
+    margin-right: 50px;
     align-items: center;
 }
 
@@ -225,6 +226,7 @@ h2.subtitle {
     .flags-container {
         position: absolute;
         margin-top: 530px;
+        margin-left: 0;
     }
     .skills-section1 {
         margin-bottom: 530px;
