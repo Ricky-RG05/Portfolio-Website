@@ -220,3 +220,16 @@ h2.subtitle {
         margin-left: 45px;
     }
 }
+
+@media only screen and (max-width: 540px) {
+    .flags-container {
+        position: absolute;
+        margin-top: 530px;
+    }
+    .skills-section1 {
+        margin-bottom: 530px;
+    }
+    .paint-brushes-image {
+        display: none;
+    }  
+}

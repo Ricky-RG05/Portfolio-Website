@@ -193,6 +193,23 @@ p {
     max-width: 580px;
 }
 
+.liquor-store-image-container {
+    margin-top: 20px;
+}
+
+.liquor-store-image {
+    background-image: url("images/pythonLiquorStoreProject.png");
+    width: 586.51px;
+    height: 348.17px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    margin-left: 85px;
+    margin-right: 52px;
+}
+
+
+
 @media only screen and (max-width: 568px) {
     .hamburger {
         margin-right: 20px;
