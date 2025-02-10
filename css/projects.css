@@ -212,76 +212,83 @@ p {
     background-repeat: no-repeat;   
     
 }
-@media only screen and (max-width: 950px) {
-    p {
-        font-size: 50px;
-        width: 840px;
+
+/* 7. Media Queries for Different Screen Sizes */
+@media only screen and (max-width: 628px) {
+    html {
+     font-size: 10px;
+    }
+     
+    .hamburger {
+        width: 40px; 
+        height: 28px; 
+     }
+ 
+     .line {
+        height: 4px; 
+     }
+    .nav-bar ul {
+        font-size: 20px;
+        width: 80%;
     }
 
-    .text-container {
-        min-width: 80%;
+    .project-img1 {
+        right: 25rem;
     }
 
-    .image-container {
-        position: absolute;
+   .hero-content h3 {
+    font-size: 25px; 
+    font-weight: bold;
+    line-height: 1.3;
+    }
+}
+
+ @media only screen and (max-width: 449px) {    
+    html {
+        font-size: 8px;
     }
 
-    .projects-container {
-        margin-left: 90px;
-    }
-
-    .margin-top-block {
-        margin-top: 480px;
+    .image-layout {
+        margin-left: -200px;
+        margin-top: 410px;
+    } 
+ 
+    .click-square {
+        display: flex;
+        margin-top: 560px;
+        margin-left: 33%;
     }
     
-    .tanakh-image-container {
-        top: 0;
-        margin-top: 650px;
+    .blue-box {
+       width: 130px; 
+       height: 140px; 
     }
 
-    .tanakh-image { 
-        width: 780.51px;
-        height: 458.17px;
-        margin-left: 0px;
+    .hero-content {
+       margin-left: 17%; 
+       margin-top: 49px
     }
 
-    .margin-top-block-liquorStore {
-        margin-top: 900px;
-    }
-
-    .liquor-store-image-container {
-        top: 0;
-        margin-top: 3110px;
-    }
-
-    .liquor-store-image {
-        margin-left: -90px;
+    .project-img1 {
+        right: 30rem; 
     }
 
     .nav-bar ul {
-        font-size: 35px; 
+        margin-left: 30px; 
     }
-}
 
-@media only screen and (max-width: 568px) {
-    .hamburger {
-        margin-right: 20px;
+     .nav-bar ul li {
+        width: 300px;
+        text-align: center; 
     }
-    .nav-bar {
-        gap: 2px;
-    }
-}
 
-@media only screen and (max-width: 571px) {
     .hamburger {
         position: absolute;
-        
+        font-size: 20px;
+        width: 25px; 
+        height: 20px
     }
     .nav-bar {
-        margin-left: 100px;
-        
-    }
-    .skills-flex-container {
-        margin-left: 45px;
+        margin-left: 30px;  
     }
 }
