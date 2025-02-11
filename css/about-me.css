@@ -261,3 +261,7 @@ p {
         height: 1113px;
     }    
 }
+
+.link-style {
+    text-decoration: none;
+}

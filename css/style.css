@@ -156,7 +156,7 @@ html {
 
 .project-img1 {
     position: absolute;
-    background-image: url(../images/code-image.webp);
+    background-image: url(../images/code-image.jpg);
     width: 16.5625rem; 
     height: 16.75rem; 
     background-size: contain;
@@ -167,7 +167,7 @@ html {
 }
 
 .ricardo-img2 {
-    background-image: url(../images/ricardo.webp);
+    background-image: url(../images/ricardo.jpg);
     width: 19.875rem; 
     height: 26.875rem; 
     background-size: contain;
@@ -256,6 +256,10 @@ html {
     top: 21.0625rem; 
     margin-left: 16rem; 
     opacity: 0.95;
+}
+
+.click-here {
+    color: #b7f056;
 }
 
 /* 7. Media Queries for Different Screen Sizes */

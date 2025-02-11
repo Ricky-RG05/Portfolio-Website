@@ -190,6 +190,7 @@ p {
     align-items: center; 
     justify-content: flex-start; 
     align-items: center;
+    margin-bottom: 35px;
 }
 
 .liquor-store-text-container {
@@ -211,6 +212,16 @@ p {
     background-position: center;
     background-repeat: no-repeat;   
     
+}
+
+.link-style {
+    text-decoration: none; /* No underline by default */
+    font-weight: 800;
+    transition: text-decoration 2s ease; /* Smooth transitions */
+}
+
+.link-style:hover {
+    text-decoration: underline; /* Add underline on hover */
 }
 
 @media only screen and (max-width: 950px) {
