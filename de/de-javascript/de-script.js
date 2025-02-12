@@ -47,3 +47,9 @@ document.addEventListener('DOMContentLoaded', () => {
     // Observe the element
     observer.observe(clickSquare);
 });
+
+const languageToggle = document.getElementById("language-toggle");
+        languageToggle.addEventListener("change", () => {
+            const selectedLanguage = languageToggle.value;
+            window.location.href = selectedLanguage; // Redirect to selected language page
+        });

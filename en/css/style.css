@@ -154,17 +154,7 @@ html {
     Width: 300px;
 }
 
-.project-img1 {
-    position: absolute;
-    background-image: url(../images/code-image.jpg);
-    width: 16.5625rem; 
-    height: 16.75rem; 
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    right: 13.5625rem; 
-    bottom: 18.6875rem; 
-}
+
 
 .ricardo-img2 {
     background-image: url(../images/ricardo.jpg);
@@ -239,14 +229,7 @@ html {
     bottom: 18.6875rem; 
 }
 
-.ricardo-img2 {
-    background-image: url(../images/ricardo.jpg);
-    width: 19.875rem; 
-    height: 26.875rem; 
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+
 
 .blue-box {
     width: 15.4375rem; 
