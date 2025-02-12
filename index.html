@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ricardo's Landing Page</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="en/css/reset.css">
+    <link rel="stylesheet" href="en/css/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Jost:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
@@ -20,9 +20,15 @@
 
         <nav class="nav-bar">
             <ul>
-                <li class="nav-item"><a href="skills.html">Skills</a></li>
-                <li class="nav-item"><a href="projects.html">Projects</a></li>
-                <li class="nav-item"><a href="about-me.html">About Me</a></li>
+                <li class="nav-item"><a href="en/skills.html">Skills</a></li>
+                <li class="nav-item"><a href="en/projects.html">Projects</a></li>
+                <li class="nav-item"><a href="en/about-me.html">About Me</a></li>
+                
+                <select id="language-toggle">
+                    <option value="../en/index.html" selected>English</option>
+                    <option value="../deIndex.html">Deutsch</option>
+                </select>
+
             </ul>
         </nav>
     </div>
@@ -40,11 +46,11 @@
 
     <section class="click-square hidden">
         <div class="square-content">
-            <h2>Click <a href="projects.html"><span class="click-here">here</span></a> to view my latest project!</h2>
+            <h2>Click <a href="en/projects.html"><span class="click-here">here</span></a> to view my latest project!</h2>
         </div>
     </section>
 
-    <script src="javascript/script.js"></script>
+    <script src="en/javascript/script.js"></script>
 </body>
 </html>
 
