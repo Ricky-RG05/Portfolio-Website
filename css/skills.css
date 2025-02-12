@@ -199,27 +199,64 @@ h2.subtitle {
     margin-right: 20px;
 }
 
-@media only screen and (max-width: 568px) {
-    .hamburger {
-        margin-right: 20px;
-    }
-    .nav-bar {
-        gap: 2px;
-    }
-}
+
 
 @media only screen and (max-width: 571px) {
-    .hamburger {
-        position: absolute;
-        
-    }
-    .nav-bar {
-        margin-left: 100px;
-        
-    }
+   html {
+       font-size: 10px;
+   }
+    
     .skills-flex-container {
         margin-left: 45px;
     }
+    
+    .header {
+        margin-top: 16px; 
+        width: 520px;
+    }
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.1875rem; 
+    height: 1.5625rem; 
+    cursor: pointer;
+    margin-left: 1.5625rem; 
+    margin-right: 5.0625rem; 
+}
+
+.line {
+    width: 100%;
+    height: 0.26875rem; 
+    background-color: #000;
+    border-radius: 0.125rem; 
+    transition: all 0.3s ease-in-out; 
+    transform-origin: left 0.175rem; 
+}
+
+.hamburger.active .line:nth-child(1) {
+    opacity: 0;
+    transform: translateY(3.125rem); 
+}
+
+.hamburger.active .line:nth-child(3) {
+    opacity: 0;
+    transform: translateY(-3.125rem); 
+}
+
+.nav-bar {
+    max-width: 400px;
+    min-width: 300px;
+}
+
+.nav-bar ul {
+    margin-left: 20px;
+}
+
+.nav-bar a {
+    font-size: 20px;
+}
+
 }
 
 @media only screen and (max-width: 540px) {

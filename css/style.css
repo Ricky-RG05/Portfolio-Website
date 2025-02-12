@@ -229,7 +229,7 @@ html {
 
 .project-img1 {
     position: absolute;
-    background-image: url(../images/code-image.webp);
+    background-image: url(../images/code-image.png);
     width: 16.5625rem; 
     height: 16.75rem; 
     background-size: contain;
@@ -240,7 +240,7 @@ html {
 }
 
 .ricardo-img2 {
-    background-image: url(../images/ricardo.webp);
+    background-image: url(../images/ricardo.jpg);
     width: 19.875rem; 
     height: 26.875rem; 
     background-size: contain;
@@ -260,6 +260,7 @@ html {
 
 .click-here {
     color: #b7f056;
+    font-weight: 730;
 }
 
 /* 7. Media Queries for Different Screen Sizes */
@@ -289,8 +290,72 @@ html {
     font-size: 25px; 
     font-weight: bold;
     line-height: 1.3;
+    }
 }
- }
+
+@media only screen and (max-width: 568px) {
+    .hamburger {
+        margin-right: 40px;
+        font-size: 16px;
+    }
+    .nav-bar {
+        
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width: 571px) {
+    .header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 16px; 
+    width: 500px;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 2.1875rem; 
+    height: 1.5625rem; 
+    cursor: pointer;
+    margin-left: 1.5625rem; 
+    margin-right: 5.0625rem; 
+}
+
+.line {
+    width: 100%;
+    height: 0.26875rem; 
+    background-color: #000;
+    border-radius: 0.125rem; 
+    transition: all 0.3s ease-in-out; 
+    transform-origin: left 0.175rem; 
+}
+
+.hamburger.active .line:nth-child(1) {
+    opacity: 0;
+    transform: translateY(3.125rem); 
+}
+
+.hamburger.active .line:nth-child(3) {
+    opacity: 0;
+    transform: translateY(-3.125rem); 
+}
+
+.nav-bar {
+
+    max-width: 300px;
+    min-width: 400px;
+}
+
+.nav-bar ul {
+}
+
+.nav-bar a {
+    font-size: 20px;
+}
+}
+
 
  @media only screen and (max-width: 449px) {    
     html {
