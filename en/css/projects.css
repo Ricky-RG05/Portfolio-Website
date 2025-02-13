@@ -224,6 +224,39 @@ p {
     text-decoration: underline; /* Add underline on hover */
 }
 
+.expense-prediction-project-container {
+    display: flex; 
+    flex-direction: column;
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    justify-content: flex-start; 
+    align-items: center;
+    margin-bottom: 35px;
+}
+
+.expense-prediction-image-container {
+    max-width: 580px;
+    min-width: 500px;
+}
+
+.expense-prediction-image-container {
+    margin-top: 20px;
+    margin-left: 140px;
+    margin-right: 20px;
+}
+
+.liquor-store-image {
+    background-image: url("../en/images/dataAnalysisImage.png");
+    width: 700px;
+    height: 908px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;   
+    
+}
+
+
 @media only screen and (max-width: 950px) {
     p {
         font-size: 50px;
