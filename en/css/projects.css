@@ -364,6 +364,8 @@ p {
     transform: translateY(3.125rem); 
 }
 
+
+
 .hamburger.active .line:nth-child(3) {
     opacity: 0;
     transform: translateY(-3.125rem); 
