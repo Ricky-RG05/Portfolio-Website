@@ -233,11 +233,12 @@ p {
     justify-content: flex-start; 
     align-items: center;
     margin-bottom: 35px;
+    margin-top: -50px;
 }
 
 .expense-prediction-image-container {
-    max-width: 580px;
-    min-width: 500px;
+    max-width: 180px;
+    min-width: 710px;
 }
 
 .expense-prediction-image-container {
@@ -246,14 +247,19 @@ p {
     margin-right: 20px;
 }
 
-.liquor-store-image {
-    background-image: url("../en/images/dataAnalysisImage.png");
+.expense-prediction-image {
+    background-image: url("../images/dataAnalysisImage.png");
     width: 700px;
     height: 908px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   
-    
+}
+
+.expense-prediction-text-container {
+    max-width: 480px;
+    min-width: 480px;
+
 }
 
 
@@ -298,6 +304,23 @@ p {
         position: absolute;
         margin-top: -610px;
         margin-left: 40px;
+    }
+
+    .expense-prediction-text-container {
+        margin-top: 50px;
+    }
+
+    .margin-top-block-expensePrediction {
+        margin-top: 900px;
+    }
+
+    .expense-prediction-image-container {
+        margin-bottom: 290px; 
+        margin-right: 33px;
+    }
+
+    .expense-prediction-image {
+        margin-left: -93px;
     }
 }
 
