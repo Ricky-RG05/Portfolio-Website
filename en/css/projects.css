@@ -151,7 +151,7 @@ p {
     font-style: italic;
 }
 
-.tanakh-project-container {
+.medical-project-container {
     display: flex; 
     flex-direction: row; 
     align-items: center; 
@@ -167,19 +167,19 @@ p {
     align-items: flex-start;
 }
 
-.tanakh-text-container {
+.medical-text-container {
     max-width: 530px;
     min-width: 500px;
 }
 
-.tanakh-image { 
-    background-image: url("../images/hebrewLandingPageTest-png.png");
+.medical-image { 
+    background-image: url("../images/medical_system.png");
     width: 626.51px;
-    height: 348.17px;
+    height: 625.17px;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;   
-    margin-left: 140px;
+    margin-left: 160px;
 }
 
 .liquor-store-project-container { 
@@ -280,19 +280,19 @@ p {
         margin-left: 60px;
     }
 
-    .margin-top-block {
-        margin-top: 480px;
+    .margin-top-block-medical {
+        margin-top: 800px;
     }
     
-    .tanakh-image-container {
+    .medical-image-container {
         top: 0;
-        margin-top: 650px;
+        margin-top: 680px;
     }
 
-    .tanakh-image { 
+    .medical-image { 
         width: 805.51px;
-        height: 458.17px;
-        margin-left: -16px;
+        height: 808.17px;
+        margin-left: -2px;
     }
 
     .margin-top-block-liquorStore {
