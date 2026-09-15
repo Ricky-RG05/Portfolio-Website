@@ -23,25 +23,30 @@
                 <li class="nav-item"><a href="en/skills.html">Skills</a></li>
                 <li class="nav-item"><a href="en/projects.html">Projects</a></li>
                 <li class="nav-item"><a href="en/about-me.html">About Me</a></li>
-                
+
                 <select id="language-toggle">
                     <option value="" selected>English</option>
                     <option value="https://ricky-rg05.github.io/Portfolio-Website-DE/deIndex.html">Deutsch</option>
                 </select>
-
             </ul>
         </nav>
     </div>
 
-    <div class="hero-content">
-        <h1>Hi there!<br> I'm Ricardo</h1>
-        <h3>Informatik-student at the Hochschule Hof, building AI pipelines with RAG systems, made possible by local AI models.</h3>
-    </div>
+    <!-- NEW: single wrapper so text + image collage can sit side-by-side on
+         desktop and stack on mobile via flexbox, instead of being two
+         independently-positioned blocks. This is the only structural change,
+         mirrored from the German version. -->
+    <div class="hero-section">
+        <div class="hero-content">
+            <h1>Hi there!<br> I'm Ricardo</h1>
+            <h3>Informatik-student at the Hochschule Hof, building AI pipelines with RAG systems, made possible by local AI models.</h3>
+        </div>
 
-    <div class="image-layout">
-        <div class="project-img1" loading="lazy"></div>
-        <div class="ricardo-img2" loading="lazy"></div>
-        <div class="blue-box"></div>
+        <div class="image-layout">
+            <div class="blue-box"></div>
+            <div class="ricardo-img2" loading="lazy"></div>
+            <div class="project-img1" loading="lazy"></div>
+        </div>
     </div>
 
     <section class="click-square hidden">
@@ -53,5 +58,3 @@
     <script src="en/javascript/script.js"></script>
 </body>
 </html>
-
-
