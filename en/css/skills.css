@@ -194,8 +194,22 @@ h2.subtitle {
     margin-top: clamp(2rem, 5vw, 3.375rem);
 }
 
+.skills-section4 {
+    margin-top: clamp(2rem, 5vw, 3.375rem);
+}
+
 .skills-section3 h2 {
     max-width: 100%; /* was a fixed 600px in the original, wider than its own parent column */
+}
+
+.link-style {
+    text-decoration: none;
+    font-weight: 800;
+    transition: text-decoration 0.2s ease;
+}
+
+.link-style:hover {
+    text-decoration: underline;
 }
 
 /* 5. Flags & Paint Brushes Images */
