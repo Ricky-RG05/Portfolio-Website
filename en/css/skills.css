@@ -235,8 +235,16 @@ h2.subtitle {
 
 .paint-brushes-image {
     width: clamp(13rem, 28vw, 26.8125rem);
-    aspect-ratio: 429 / 272;
+    aspect-ratio: 80 / 53;
     background-image: url(../images/paintBrushesImage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.nvidia-image {
+    width: clamp(10rem, 20vw, 50rem);
+    aspect-ratio: 177 / 184;
+    background-image: url(../images/nvidia.png);
     background-size: cover;
     background-position: center;
 }
@@ -251,10 +259,11 @@ h2.subtitle {
     .flags-image {
         margin: 0;
     }
-}
-
-@media only screen and (max-width: 540px) {
     .paint-brushes-image {
         display: none;
+    }
+
+    .flags-container {
+        gap: clamp(1rem, 1vw, 5.5rem);
     }
 }
